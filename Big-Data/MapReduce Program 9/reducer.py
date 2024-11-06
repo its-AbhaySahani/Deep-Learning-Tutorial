@@ -19,3 +19,10 @@ for line in sys.stdin:
                 max_count = current_count
         current_word = word
         current_count = count
+
+if current_word:
+    if current_count > max_count:
+        max_word = current_word
+        max_count = current_count
+
+print(f"{max_word}\t{max_count}")
