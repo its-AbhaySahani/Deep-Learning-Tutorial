@@ -7,3 +7,5 @@ for line in sys.stdin:
     words = WORD_RE.findall(line.lower())
     for word in words:
         print(f"{word}\t1")
+
+

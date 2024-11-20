@@ -9,3 +9,4 @@ for line in sys.stdin:
     for word in words:
         if word == "romeo":
             print(f'{word}\t1')
+
