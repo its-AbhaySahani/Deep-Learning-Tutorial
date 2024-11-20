@@ -2,7 +2,6 @@
 
 
 # Mapper: longest_word_mapper.py
-# write mapper code and also remove special characters
 # Mapper: longest_word_mapper.py
 import sys
 import re
